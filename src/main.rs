@@ -1,12 +1,15 @@
+pub mod closures;
 pub mod helpers;
-
 #[allow(dead_code)]
 fn main() {
     let myresult: String = helpers::get_full_name("Ali", "V");
     // test_while()
     // test_if();
-    test_for_array();
+    // test_for_array();
+    closures::test_closures();
 }
+
+#[allow(dead_code)]
 fn test_for_array() {
     let age_array: [i32; 17] = [
         123, 23, 325, 546, 854, 23, 34, 452, 43, 5, 4, 7, 9, 5, 342, 54, 5432,
