@@ -1,12 +1,14 @@
 pub mod closures;
 pub mod helpers;
+pub mod mystructs;
+
 #[allow(dead_code)]
 fn main() {
-    let myresult: String = helpers::get_full_name("Ali", "V");
     // test_while()
     // test_if();
     // test_for_array();
-    closures::test_closures();
+    // closures::test_closures();
+    mystructs::new_person("Ali".to_string(), "V".to_string(), 1990, 12);
 }
 
 #[allow(dead_code)]
