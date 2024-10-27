@@ -1,6 +1,7 @@
 pub mod closures;
 pub mod helpers;
 pub mod mystructs;
+pub mod vec;
 
 #[allow(dead_code)]
 fn main() {
@@ -8,7 +9,10 @@ fn main() {
     // test_if();
     // test_for_array();
     // closures::test_closures();
-    mystructs::new_person("Ali".to_string(), "V".to_string(), 1990, 12);
+    // mystructs::new_person("Ali".to_string(), "V".to_string(), 1990, 12);
+    // mystructs::test_mystructs();
+
+    vec::test_my_vec_int();
 }
 
 #[allow(dead_code)]
