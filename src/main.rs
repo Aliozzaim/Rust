@@ -1,5 +1,6 @@
 pub mod closures;
 pub mod helpers;
+pub mod myHashmap;
 pub mod mystructs;
 pub mod vec;
 
@@ -11,8 +12,8 @@ fn main() {
     // closures::test_closures();
     // mystructs::new_person("Ali".to_string(), "V".to_string(), 1990, 12);
     // mystructs::test_mystructs();
-
-    vec::test_my_vec_int();
+    // vec::test_my_vec_int();
+    myHashmap::test_my_hashmap();
 }
 
 #[allow(dead_code)]
